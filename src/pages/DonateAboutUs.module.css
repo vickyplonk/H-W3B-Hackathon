@@ -39,27 +39,28 @@
 }
 
 .greenheader {
-  background-color: #d8e4dc; /* Set your desired color */
-  height: 120px; /* Set your desired height */
+  background-color: #d8e4dc;
+  height: 120px;
   display: flex;
-  justify-content: space-between; /* Aligns children at each end of the flex container */
   align-items: center;
-  width: 100%; /* Ensure it spans the whole width */
-  position: fixed; /* Ensure it stays at the top */
-  top: 0;
-  left: 0;
-  z-index: 0; /* Adjust as needed */
+  justify-content: space-between;
+  width: 100%;
+  position: relative; /* Change to relative */
+  z-index: 1; /* Increase z-index */
 }
+
 .leftContent {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Align items to the start of the container */
+  justify-content: flex-start;
+  margin-left: 20px; /* Adjust margin as needed */
 }
+
 .rightContent {
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Align items to the end of the container */
-  margin-right: 15px;
+  justify-content: flex-end;
+  margin-right: 20px; /* Adjust margin as needed */
 }
 .ecoGuardian {
   position: absolute;
