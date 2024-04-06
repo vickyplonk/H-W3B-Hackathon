@@ -1,32 +1,48 @@
-.bg,
-.services {
+.footer {
   position: absolute;
-  left: 0;
-}
-.bg {
-  height: 100%;
+  height: 14.86%;
   width: 100%;
-  top: 0;
+  top: 85.17%;
   right: 0;
-  bottom: 0;
+  bottom: -0.03%;
+  left: 0;
   background-color: var(--color-gray);
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
 }
-.services {
-  width: 35.9%;
-  top: calc(50% - 103.05px);
-  letter-spacing: -0.1px;
-  line-height: 26px;
-  display: none;
-  opacity: 0.65;
-  mix-blend-mode: normal;
+
+.ecoGuardianFooter {
+  position: absolute;
+  width: 16.44%;
+  top: calc(50% - 83.75px); /* Keep vertical position */
+  left: 55.5%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for centering horizontally */
+  letter-spacing: -0.16px;
+  display: inline-block;
+  height: 55.3px;
 }
-.digitalMarketing {
-  margin: 0;
+.whiteEcoguardianLogo {
+  position: absolute;
+  top: 48.5px; /* Keep vertical position */
+  left: 50%; /* Center horizontally */
+  width: 242px;
+  height: 167.8px;
+  object-fit: cover;
+  transform: translateX(-50%); /* Adjust for centering horizontally */
 }
+.bgIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 116px;
+}
+
 .greenheader {
   background-color: #d8e4dc; /* Set your desired color */
   height: 120px; /* Set your desired height */
   display: flex;
+  justify-content: space-between; /* Aligns children at each end of the flex container */
   align-items: center;
   width: 100%; /* Ensure it spans the whole width */
   position: fixed; /* Ensure it stays at the top */
@@ -34,96 +50,44 @@
   left: 0;
   z-index: 0; /* Adjust as needed */
 }
-.digitalMarketingCoContainer {
-  position: absolute;
-  height: 77.66%;
-  width: 100%;
-  top: 22.34%;
-  left: 0;
-  font-size: 17px;
-  letter-spacing: -0.2px;
-  line-height: 40px;
-  display: inline-block;
+.leftContent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the start of the container */
 }
-.div {
-  position: absolute;
-  height: 51.46%;
-  width: 9.75%;
-  top: 3.02%;
-  right: 28.5%;
-  bottom: 45.52%;
-  left: 61.75%;
-  overflow: hidden;
-  display: none;
-}
-.ecoGuardianFooter {
-  position: absolute;
-  width: 16.44%;
-  top: calc(50% - 83.75px);
-  left: 42.19%;
-  font-size: var(--font-size-17xl);
-  letter-spacing: -0.16px;
-  font-family: var(--font-actor);
-  text-align: center;
-  display: inline-block;
-  height: 55.3px;
-}
-.whiteEcoguardianLogo {
-  position: absolute;
-  top: 48.5px;
-  left: 842px;
-  width: 242px;
-  height: 167.8px;
-  object-fit: cover;
-}
-.bgIcon,
-.footer {
-  position: absolute;
-  left: 0;
-}
-.footer {
-  height: 14.86%;
-  width: 100%;
-  top: 85.17%;
-  right: 0;
-  bottom: -0.03%;
-  font-size: 15px;
-  color: var(--color-white);
-  font-family: var(--font-abeezee);
-}
-.bgIcon {
-  top: 0;
-  width: 1930px;
-  height: 116px;
+.rightContent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align items to the end of the container */
+  margin-right: 15px;
 }
 .ecoGuardian {
   position: absolute;
-  width: 75.22%;
-  top: calc(50% - 19px);
-  left: 24.78%;
+  width: 40%;
+  top: 35%;
+  left:5%;
   letter-spacing: -0.16px;
-  display: inline-block;
 }
-.header,
+.teamName {
+  position: absolute;
+  width: 75.22%;
+  left: 40%;
+  letter-spacing: -0.16px;
+}
 .logoIcon {
   position: absolute;
   height: 60px;
+  top:25%
 }
-.logoIcon {
-  top: 0;
-  left: 0;
-  width: 52.8px;
-  object-fit: cover;
-}
+
 .header {
-  cursor: pointer;
-  text-decoration: none;
-  width: 14.29%;
-  top: calc(50% - 864px);
-  right: 84.41%;
-  left: 1.3%;
-  color: inherit;
+  top: 26px;
+  left: 25px;
+  width: 274.4px;
+  text-align: left;
 }
+
+
 .aboutUs {
   margin: 0;
   font-size: var(--font-size-29xl);
@@ -150,11 +114,9 @@
 }
 .chooseADonation,
 .enterACustom {
-  position: relative;
-}
-.enterACustom {
   border: 0;
   background-color: var(--green-2);
+  position: relative;
 }
 .chooseADonationAmountParent,
 .frameGroup {
@@ -163,28 +125,25 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.frameGroup {
   gap: 20px;
 }
 .chooseADonationAmountParent {
   gap: var(--gap-3xs);
+  margin-right:40px;
 }
 .frameChild {
   flex: 1;
 }
 .frameContainer,
-.frameParent {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
 .frameContainer {
   align-self: stretch;
   flex-direction: row;
   gap: var(--gap-3xs);
 }
 .frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   position: absolute;
   top: 40%; /* Adjust as needed */
   left: 65%; /* Adjust as needed */
@@ -197,20 +156,7 @@
   color: var(--gray-1);
   font-family: var(--font-lato);
 }
-.teamLiquidium {
-  margin-block-start: 0;
-  margin-block-end: 15px;
-}
-.teamName {
-  position: absolute;
-  width: 14.48%;
-  top: calc(50% - 867px);
-  left: 83.96%;
-  letter-spacing: -0.1px;
-  line-height: 26px;
-  text-align: right;
-  display: inline-block;
-}
+
 .donateAboutUs {
   width: 100%;
   position: relative;

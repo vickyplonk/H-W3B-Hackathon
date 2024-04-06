@@ -1,20 +1,3 @@
-.ecoGuardianFooter {
-  position: absolute;
-  width: 16.44%;
-  top: calc(50% - 83.75px);
-  left: 42.19%;
-  letter-spacing: -0.16px;
-  display: inline-block;
-  height: 55.3px;
-}
-.whiteEcoguardianLogo {
-  position: absolute;
-  top: 48.5px;
-  left: 46%;
-  width: 242px;
-  height: 167.8px;
-  object-fit: cover;
-}
 .footer {
   position: absolute;
   height: 14.86%;
@@ -27,13 +10,34 @@
   font-size: var(--font-size-17xl);
   color: var(--color-white);
 }
+
+.ecoGuardianFooter {
+  position: absolute;
+  width: 16.44%;
+  top: calc(50% - 83.75px); /* Keep vertical position */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for centering horizontally */
+  letter-spacing: -0.16px;
+  display: inline-block;
+  height: 55.3px;
+}
+.whiteEcoguardianLogo {
+  position: absolute;
+  top: 48.5px; /* Keep vertical position */
+  left: 50%; /* Center horizontally */
+  width: 242px;
+  height: 167.8px;
+  object-fit: cover;
+  transform: translateX(-50%); /* Adjust for centering horizontally */
+}
 .mapIcon {
   position: absolute;
-  top: 436px;
-  left: 92px;
+  top: 436px; /* Keep vertical position */
+  left: 50%; /* Center horizontally */
   width: 1736px;
   height: 823px;
   object-fit: cover;
+  transform: translateX(-50%); /* Adjust for centering horizontally */
 }
 .bgIcon {
   position: absolute;
@@ -42,35 +46,12 @@
   width: 1920px;
   height: 116px;
 }
-.ecoGuardian {
-  position: absolute;
-  width: 75.22%;
-  top: calc(50% - 19px);
-  left: 33.89%;
-  letter-spacing: -0.16px;
-  display: inline-block;
-}
-.header,
-.logoIcon {
-  position: absolute;
-  height: 60px;
-}
-.logoIcon {
-  top: 0;
-  left: 0;
-  width: 52.8px;
-  object-fit: cover;
-}
-.header {
-  top: 26px;
-  left: 25px;
-  width: 274.4px;
-  text-align: left;
-}
+
 .greenheader {
   background-color: #d8e4dc; /* Set your desired color */
   height: 120px; /* Set your desired height */
   display: flex;
+  justify-content: space-between; /* Aligns children at each end of the flex container */
   align-items: center;
   width: 100%; /* Ensure it spans the whole width */
   position: fixed; /* Ensure it stays at the top */
@@ -78,6 +59,41 @@
   left: 0;
   z-index: 0; /* Adjust as needed */
 }
+.leftContent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the start of the container */
+}
+.rightContent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align items to the end of the container */
+}
+.ecoGuardian {
+  position: absolute;
+  width: 40%;
+  top: 35%;
+  letter-spacing: -0.16px;
+}
+.teamName {
+  position: absolute;
+  width: 75.22%;
+  left: 40%;
+  letter-spacing: -0.16px;
+}
+.logoIcon {
+  position: absolute;
+  height: 60px;
+  top:25%
+}
+
+.header {
+  top: 26px;
+  left: 25px;
+  width: 274.4px;
+  text-align: left;
+}
+
 
 
 .seeForYourself {
@@ -93,26 +109,7 @@
   color: var(--colors-dark-100);
   display: inline-block;
 }
-.teamLiquidium {
-  margin-block-start: 0;
-  margin-block-end: 15px;
-}
-.donateAbout {
-  margin: 0;
-}
-.teamName {
-  cursor: pointer;
-  text-decoration: none;
-  position: absolute;
-  width: 14.48%;
-  top: calc(50% - 865px);
-  left: 84.38%;
-  letter-spacing: -0.1px;
-  line-height: 26px;
-  color: inherit;
-  text-align: right;
-  display: inline-block;
-}
+
 .homePage {
   width: 100%;
   position: relative;
