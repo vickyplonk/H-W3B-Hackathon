@@ -1,0 +1,210 @@
+.environmentalFilters{
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 1350px;
+  height: 64px;
+}
+.sewageButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--green-2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 168px;
+  height: 58px;
+}
+.oilButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--green-2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 168px;
+  height: 58px;
+}
+.co2Button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--green-2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 168px;
+  height: 58px;
+}
+.ukFlagIcon {
+  position: absolute;
+  top: 53px;
+  left: 0;
+  width: 562px;
+  height: 58px;
+}
+.ukFlagIcon {
+  top: 9px;
+  left: 18px;
+  width: 33px;
+  height: 40px;
+  object-fit: cover;
+}
+.ukButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--green-2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 168px;
+  height: 58px;
+}
+.usIcon {
+  top: 9px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.chinaIcon,
+.us,
+.usIcon {
+  position: absolute;
+}
+.us {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--green-2);
+  top: 0;
+  left: 197px;
+  width: 168px;
+  height: 58px;
+}
+.chinaIcon {
+  top: 6px;
+  left: 11px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.china {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--green-2);
+  position: absolute;
+  top: 0;
+  left: 394px;
+  width: 168px;
+  height: 58px;
+}
+.image1Icon {
+  position: absolute;
+  top: 4px;
+  left: 12px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.india {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--green-2);
+  position: absolute;
+  top: 0;
+  left: 591px;
+  width: 168px;
+  height: 58px;
+}
+.russiaIcon {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.russia {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--green-2);
+  position: absolute;
+  top: 3px;
+  left: 788px;
+  width: 168px;
+  height: 58px;
+}
+.japanIcon {
+  position: absolute;
+  top: 4px;
+  left: 9px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.japan {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--green-2);
+  top: 6px;
+  left: 1182px;
+  width: 168px;
+  height: 58px;
+}
+.eu,
+.euIcon,
+.japan {
+  position: absolute;
+}
+.euIcon {
+  top: 3px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.eu {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--green-2);
+  top: 4px;
+  left: 985px;
+  width: 168px;
+  height: 58px;
+}
+.countryFilters {
+  position: absolute;
+  top: 133px;
+  left: 0;
+  width: 1350px;
+  height: 64px;
+}
+.filterTitle {
+  position: absolute;
+  width: 44.71%;
+  top: calc(50% - 98.5px);
+  left: 2.74%;
+  letter-spacing: -1.2px;
+  line-height: 48px;
+  display: inline-block;
+}
+.filters {
+  position: absolute;
+  top: 141px;
+  left: 37px;
+  width: 1350px;
+  height: 197px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--colors-dark-100);
+  font-family: var(--font-abeezee);
+}

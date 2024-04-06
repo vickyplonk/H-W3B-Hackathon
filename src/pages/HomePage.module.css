@@ -1,0 +1,126 @@
+.ecoGuardianFooter {
+  position: absolute;
+  width: 16.44%;
+  top: calc(50% - 83.75px);
+  left: 42.19%;
+  letter-spacing: -0.16px;
+  display: inline-block;
+  height: 55.3px;
+}
+.whiteEcoguardianLogo {
+  position: absolute;
+  top: 48.5px;
+  left: 46%;
+  width: 242px;
+  height: 167.8px;
+  object-fit: cover;
+}
+.footer {
+  position: absolute;
+  height: 14.86%;
+  width: 100%;
+  top: 85.17%;
+  right: 0;
+  bottom: -0.03%;
+  left: 0;
+  background-color: var(--color-gray);
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+}
+.mapIcon {
+  position: absolute;
+  top: 436px;
+  left: 92px;
+  width: 1736px;
+  height: 823px;
+  object-fit: cover;
+}
+.bgIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 116px;
+}
+.ecoGuardian {
+  position: absolute;
+  width: 75.22%;
+  top: calc(50% - 19px);
+  left: 33.89%;
+  letter-spacing: -0.16px;
+  display: inline-block;
+}
+.header,
+.logoIcon {
+  position: absolute;
+  height: 60px;
+}
+.logoIcon {
+  top: 0;
+  left: 0;
+  width: 52.8px;
+  object-fit: cover;
+}
+.header {
+  top: 26px;
+  left: 25px;
+  width: 274.4px;
+  text-align: left;
+}
+.greenheader {
+  background-color: #d8e4dc; /* Set your desired color */
+  height: 120px; /* Set your desired height */
+  display: flex;
+  align-items: center;
+  width: 100%; /* Ensure it spans the whole width */
+  position: fixed; /* Ensure it stays at the top */
+  top: 0;
+  left: 0;
+  z-index: 0; /* Adjust as needed */
+}
+
+
+.seeForYourself {
+  text-decoration: underline;
+  position: absolute;
+  width: 31.44%;
+  top: calc(50% + 467px);
+  left: 34.27%;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -1.2px;
+  line-height: 48px;
+  font-family: var(--font-abeezee);
+  color: var(--colors-dark-100);
+  display: inline-block;
+}
+.teamLiquidium {
+  margin-block-start: 0;
+  margin-block-end: 15px;
+}
+.donateAbout {
+  margin: 0;
+}
+.teamName {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  width: 14.48%;
+  top: calc(50% - 865px);
+  left: 84.38%;
+  letter-spacing: -0.1px;
+  line-height: 26px;
+  color: inherit;
+  text-align: right;
+  display: inline-block;
+}
+.homePage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1780px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray);
+  font-family: var(--font-actor);
+}

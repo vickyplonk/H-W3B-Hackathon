@@ -1,0 +1,48 @@
+.color {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--colors-light-pastel-purple);
+}
+.color,
+.group,
+.text {
+  position: absolute;
+}
+.text {
+  top: calc(50% - 7px);
+  left: 16.88%;
+  line-height: 15px;
+}
+.group {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.elementsTags {
+  width: 80px;
+  height: 24px;
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--colors-dark-100);
+  font-family: var(--h5);
+}
+.sewageButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--green-2);
+  position: absolute;
+  top: 100;
+  left: 0px;
+  width: 500px;
+  height: 58px;
+}

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Actor:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-actor: Actor;
+  --font-abeezee: ABeeZee;
+  --h5: "DM Sans";
+  --font-lato: Lato;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-17xl: 36px;
+  --font-size-lg: 18px;
+  --font-size-29xl: 48px;
+  --h5-size: 10px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: #161c2d;
+  --colors-dark-100: #000;
+  --color-lightblue: #c7e3fc;
+  --colors-light-pastel-green: #e2fbd7;
+  --gray-1: #333;
+  --colors-light-pastel-purple: #dad7fe;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+
+  /* Border radiuses */
+  --br-7xs: 6px;
+}
