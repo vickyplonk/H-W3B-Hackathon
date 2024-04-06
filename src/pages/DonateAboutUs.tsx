@@ -19,7 +19,7 @@ const DonateAboutUs: FunctionComponent = () => {
       </div>
       <div className={styles.greenheader}>
         <div className={styles.leftContent}>
-          <Link className={styles.header} to="/home">
+          <Link className={styles.header} to="/">
           <div className={styles.ecoGuardian}>Liquidium</div>
           <img className={styles.logoIcon} alt="" src="/logo@2x.png" />
           </Link>
